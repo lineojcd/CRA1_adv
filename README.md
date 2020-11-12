@@ -46,7 +46,7 @@ dts devel build -f --arch arm32v7 -H [ROBOT_NAME].local
 
 ### 3. Run docker image in Duckiebot with the following options
 ```bash
-docker -H [ROBOT_NAME].local run -it -e MAP_FILE=[MAP_FILENAME] -v /data/config/calibrations/:/code/catkin_ws/src/CRA1_basic/calibrations/ --rm --net=host --privileged duckietown/CRA1_basic:CRA1_basic-arm32v7
+docker -H [ROBOT_NAME].local run -it -e MAP_FILE=[MAP_FILENAME] -v /data/config/calibrations/:/code/catkin_ws/src/CRA1_basic/calibrations/ --rm --net=host --privileged duckietown/CRA1_basic:latest-arm32v7
 ```
 Choice of MAP_FILENAME: [hud, calibration_pattern, lane].
 
