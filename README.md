@@ -21,3 +21,8 @@ If the above command does not work, replace "CRA1_adv" by lower case ("cra1_adv"
 
 # Credit
 Credit to afdaniele for the image projection pipeline (https://github.com/duckietown/dt-core/blob/6285293fb05351a23dc936a3dd70d42e61bca379/packages/ground_projection/include/ground_projection/GroundProjection.py) and also to lib-dt-apriltags: Python bindings for the Apriltags library (https://github.com/duckietown/lib-dt-apriltags)
+
+
+
+A sample result is shown here:
+![testapriltagdetector](https://github.com/lineojcd/CRA1_adv/blob/main/testimgdector.png)
