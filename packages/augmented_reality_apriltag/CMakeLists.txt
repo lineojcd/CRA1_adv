@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   sensor_msgs
   cv_bridge
+  image_geometry
   duckietown_msgs
 )
 
