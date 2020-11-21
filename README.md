@@ -50,5 +50,7 @@ docker -H [ROBOT_NAME].local run -it -e MAP_FILE=[MAP_FILENAME] -v /data/config/
 ```
 Choice of MAP_FILENAME: [hud, calibration_pattern, lane].
 
+If the above command does not work, replace "CRA1_basic" by lower case ("cra1_basic")
+
 # Credit
 Credit to afdaniele for the image projection pipeline (https://github.com/duckietown/dt-core/blob/6285293fb05351a23dc936a3dd70d42e61bca379/packages/ground_projection/include/ground_projection/GroundProjection.py)
