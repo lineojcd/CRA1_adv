@@ -25,4 +25,4 @@ Credit to afdaniele for the image projection pipeline (https://github.com/duckie
 
 
 A sample result is shown here:
-![testapriltagdetector](https://github.com/lineojcd/CRA1_adv/blob/main/testimgdector.png)
+![testapriltagdetector](https://github.com/lineojcd/CRA1_adv/blob/master/testapriltagdetector.png)
